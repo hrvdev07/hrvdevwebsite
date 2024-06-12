@@ -9,6 +9,6 @@ function showToastWithIcon(message, iconClass) {
     
     setTimeout(function() {
       toast.style.display = 'none';
-    }, 2000); // Hiển thị toast trong 2 giây
+    }, 5000); // Hiển thị toast trong 5 giây
 }
   
