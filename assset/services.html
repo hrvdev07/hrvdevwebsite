@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRV TEAM DEV</title>
+    <link rel="stylesheet" href="styleserv.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="scripts.js"></script>
+</head>
+
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">HRV Dev.</a>
+
+        <nav class="navbar">
+            <a href="../index.html" >Home</a>
+            <a href="./about.html">About</a>
+            <a href="#" class="active">Services<a>
+        </nav>
+
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>HRV Services</h1>
+        </div>
+        <div class="container">
+            <div class="box" onclick="showToastWithIcon('Làm Quần Áo Theo Yêu Cầu Của Bạn <br> Cho Gang Của Bạn , Hoặc Đơn Giản Là Chính Bản Thân Bạn', 'bx bxs-info-circle')" style="background-image: url('../image/lamao1.png');"><b>Thiết Kế Quần Áo</b></div>
+            <div class="box" onclick="showToastWithIcon('Làm Tem Xe Theo Yêu Cầu Của Bạn <br> Cho Gang Của Bạn , Hoặc Đơn Giản Là Chính Bản Thân Bạn', 'bx bxs-info-circle')" style="background-image: url('../image/lamtemxe.jpg');"><b>Thiết Kế Tem Xe</b></div>
+            <div class="box" onclick="showToastWithIcon('Nhiều Dịch Vụ Hơn Trong Tương Lai !', 'bx bxs-info-circle')" style="background-image: url('../image/nhieuhonnua.jpg')"><b>Nhiều Hơn Nữa...</b></div>
+        </div>
+        <div class="home-sci">
+            <a href="https://www.facebook.com/dotruongg07"><i class='bx bxl-facebook'></i></a>
+            <a href="https://discord.gg/mmSdWHcVDF"><i class='bx bxl-discord-alt' ></i></a>
+            <a href="#"><i class='bx bxs-bank' ></i></a>
+        </div>
+
+        <span class="home-imgHover"></span>
+    </section>
+
+    <div id="toast">
+        <span id="toastIcon"></span>
+        <span id="toastMessage"></span>
+    </div>
+
+</body>
+
+</html>
